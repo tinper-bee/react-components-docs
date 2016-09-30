@@ -16,5 +16,46 @@
 - 事件调用使用在元素上onClick调用
 - 注意，react和html的表单元素的差异
 - 使用es6后，不支持mixin，使用decorator进行扩展，（babel？需要增加解析器）和高阶组件方式扩展。
-- 组件中注释使用{/**/}
 - 代码规范使用   [airbnb规范](https://github.com/airbnb/javascript/tree/master/react)
+
+## 基本代码结构
+
+```javascript
+//引入依赖
+let React = require('react');
+let ReactDOM = require('react-dom');
+let classnames = require('classnames');
+
+//定义prop检验
+const propTypes = {
+
+}
+
+//定义默认参数
+const defaultProps = {
+
+}
+
+//定义组件
+class Button extends React.Component {
+	constructor (props) {
+		super(props);
+		//定义state
+		this.state = {
+
+		}
+	}
+    //自定义内容
+
+	render () {
+		return (
+
+		)
+	}
+}
+
+Button.propTypes = propTypes;
+Button.defaultProps = defaultProps;
+
+module.exports = Button;
+```
