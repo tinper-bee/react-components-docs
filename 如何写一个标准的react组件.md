@@ -2,6 +2,7 @@
 
 #### 环境依赖
 - 需要安装node 4.0版本及以上, npm版本最好3.0以上
+- (sass环境依赖)[]
 
 ### 一、生成组件脚手架
 #### 1、下载
@@ -33,10 +34,11 @@ API介绍
 ```
 -demo
  -ButtonDemo.js
- -ButtonDemo.less
+ -ButtonDemo.scss
  -index.js
 -src
  -Button.js
+ -Button.scss
  -index.js
 -test
  -setup.js
