@@ -2,7 +2,7 @@
 
 ## 安装Ruby
 sass依赖Ruby环境，所以需要先安装Ruby
-- 下载地址(http://rubyinstaller.org/downloads)[http://rubyinstaller.org/downloads]
+- 下载地址[http://rubyinstaller.org/downloads](http://rubyinstaller.org/downloads)
 - 注意事项：安装时，最好勾选Add Ruby executables to your PATH这个选项，添加环境变量。
 - 查看ruby是否正确安装，在命令窗口使用ruby -v查看版本号来确认是否正确安装
 
@@ -26,7 +26,5 @@ cnpm install --save-dev gulp-sass
 
 ## sass用法
 请移步参考：
-(http://www.w3cplus.com/sassguide/)[http://www.w3cplus.com/sassguide/]
-(http://sass-lang.com/documentation/file.SASS_REFERENCE.html)[http://sass-lang.com/documentation/file.SASS_REFERENCE.html]
-
-(关于安装gulp-sass失败的问题解决)[http://blog.csdn.net/jimmyhandy/article/details/50723174]
+[http://www.w3cplus.com/sassguide/](http://www.w3cplus.com/sassguide/)
+[http://sass-lang.com/documentation/file.SASS_REFERENCE.html](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)

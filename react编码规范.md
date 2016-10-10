@@ -26,7 +26,7 @@
 - 代码规范使用   [airbnb规范](https://github.com/airbnb/javascript/tree/master/react)
 
 ## 样式规范
-- 组件样式使用sass编写，公用样式使用bee-core包
+- 组件样式使用sass编写，公用样式使用tinper-bee-core包，请阅读[tinper-bee-core文档](https://github.com/tinper-bee/tinper-bee-core)
 - 组件样式调用，使用classnames模块，进行样式处理，使用className调用
 - 组件内部使用clsPrefix为样式前缀
 ```javascript
