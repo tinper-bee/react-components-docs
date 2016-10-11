@@ -2,6 +2,7 @@
 
 #### 环境依赖
 - 需要安装node 4.0版本及以上, npm版本最好3.0以上
+- [sass环境依赖](https://github.com/tinper-bee/react-components-docs/blob/master/sass%E7%8E%AF%E5%A2%83%E4%BE%9D%E8%B5%96%E8%A7%A3%E5%86%B3.md)
 
 ### 一、生成组件脚手架
 #### 1、下载
@@ -17,8 +18,9 @@ cd button
 yo tinper-bee --port=8000 --author=yonyou
 ```
 API介绍
-| 参数        | 说明          | 默认值  |
-| ------------- |:-------------:| -----:|
+
+| 参数        | 说明         | 默认值  |
+|:------------ |:-------------:| -----:|
 | port      | 开发时服务监听端口 | 8000 |
 | author      | 作者名字      |   空字符串 |
 | beeVersion | 版本号     |    0.0.1 |
@@ -33,10 +35,11 @@ API介绍
 ```
 -demo
  -ButtonDemo.js
- -ButtonDemo.less
+ -ButtonDemo.scss
  -index.js
 -src
  -Button.js
+ -Button.scss
  -index.js
 -test
  -setup.js
@@ -61,6 +64,9 @@ API介绍
 - 根目录 中的 html 不可修改，通过 js 中的 jsx 渲染页面，通过 require css 引入 css。
 - 开发中用到其他公共库，通过 `npm install --save` 以及 `npm install --save-dev` 来安装
 
+##### 代码书写规范
+[react编码规范](https://github.com/tinper-bee/react-components-docs/blob/master/react%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.md)
+[react组件测试流程和规范](https://github.com/tinper-bee/react-components-docs/blob/master/react%E7%BB%84%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%B5%81%E7%A8%8B%E5%92%8C%E8%A7%84%E8%8C%83.md)
 
 ##### 开发调试
 
