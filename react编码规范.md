@@ -49,9 +49,9 @@ const classString = classNames('hide', class1, class2);
 
 ```javascript
 //引入依赖
-let React = require('react');
-let ReactDOM = require('react-dom');
-let classnames = require('classnames');
+import React from 'react';
+import ReactDOM from'react-dom';
+import classnames from 'classnames';
 
 //定义prop检验
 const propTypes = {
@@ -84,7 +84,7 @@ class Button extends React.Component {
 Button.propTypes = propTypes;
 Button.defaultProps = defaultProps;
 
-module.exports = Button;
+export default Button;
 ```
 
 
