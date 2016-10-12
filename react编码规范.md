@@ -43,7 +43,19 @@ const class2 = [`${clsPrefix}-submit`, `${clsPrefix}-item`];
 const classString = classNames('hide', class1, class2);
 
 ```
+## 组件接口规范
 
+|参数|说明|类型|默认值|
+|---|----|---|------|
+|size|尺寸|string|medium|
+|color|颜色|string|''|
+|shape|形状|string|''|
+|disabled|是否禁用(`disabled` 或 `true` `false`)|bool|false|
+|className|增加额外的类名|string|''|
+|htmlType|html dom 的 type 属性|string|''|
+|style|内联样式|object|''|
+|loadingText|loading时显示内容,默认值loading|string|loading|
+|loadingTime|loading的时间|number|300ms|
 
 ## 基本代码结构
 
