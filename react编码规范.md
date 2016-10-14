@@ -26,6 +26,7 @@ componentWillUpdate,componentDidUpdate,componentWillUnmount)
 - 尽量多而有用的代码注释，方法用块级注释，结构如下例。
 - 有必要需要些组件的销毁方法，比如 定时器，需要用销毁方法销毁定时器
 - ...others 没有必要 勿用
+- 自身定义的props属性应避免与react的关键字相同
 
 
 
