@@ -21,6 +21,13 @@
 - 注意，react和html的表单元素的差异
 - 使用es6后，不支持mixin，使用decorator进行扩展，（babel？需要增加解析器）和高阶组件方式扩展。
 - 尽量不使用比较大的第三方js库
+- 组件方法定义顺序 constructor --> 声明周期方法(componentWillMount,componentDidMount,
+componentWillUpdate,componentDidUpdate,componentWillUnmount)
+- 尽量多而有用的代码注释，方法用块级注释，结构如下例。
+- 有必要需要些组件的销毁方法，比如 定时器，需要用销毁方法销毁定时器
+- ...others 没有必要 勿用
+
+
 
 
 - 代码规范使用   [airbnb规范](https://github.com/airbnb/javascript/tree/master/react)
@@ -75,7 +82,9 @@ const defaultProps = {
 
 }
 
-//定义组件
+/**
+ * 定义组件
+ */
 class Button extends React.Component {
 	constructor (props) {
 		super(props);
@@ -83,12 +92,16 @@ class Button extends React.Component {
 		this.state = {
 
 		}
+		// 事先声明方法绑定
+		this.MyEvent = this.MyEvent.bind(this);
 	}
     //自定义内容
+    MyEvent () {
 
+    }
 	render () {
 		return (
-
+			// <div onClick={this.MyEvent}></div>
 		)
 	}
 }
