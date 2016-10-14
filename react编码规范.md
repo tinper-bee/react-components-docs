@@ -8,7 +8,7 @@
 - 每一个组件使用一个单独的测试用例文件
 
 ## js规范
-- 使用es6开发
+- 使用es6开发，尽量使用常用的ES6语法，(ES6语法参考)[http://es6.ruanyifeng.com/]
 - 使用jsx语法
 - 组件命名使用大驼峰， ComponentDemo
 - 带命名空间的组件，如果一个组件包含只有自身使用的子组件，以该组件为命名空间编写组件，例如Table，Table.Head
@@ -16,6 +16,7 @@
 - 自定义属性使用data-
 - 使用propTypes进行props类型校验
 - 使用defaultProps定义默认参数
+- 定义props避开react关键字及保留字，常用的props及state定义可参考下表
 - 尽量少或者不使用ref获取和操作dom节点，使用state和prop进行控制dom
 - 事件调用使用在元素上onClick调用
 - 注意，react和html的表单元素的差异
@@ -55,7 +56,7 @@ import classnames from 'classnames';
 
 //定义prop检验
 const propTypes = {
-
+//每一个props都要写注释
 }
 
 //定义默认参数
@@ -69,10 +70,11 @@ class Button extends React.Component {
 		super(props);
 		//定义state
 		this.state = {
-
+    //每一个state要写注释
 		}
 	}
-    //自定义内容
+    //自定义函数方法，及注释
+    //组件生命周期方法
 
 	render () {
 		return (

@@ -59,7 +59,7 @@ describe('Enzyme Mount', function () {
   });
 });
 ```
-`at`返回指定位置的子组件，`simulate`在组件上触发某种行为
+`at`返回指定位置的子组件，`simulate`在组件上触发某种行为，第一个参数为事件，第二个参数为传入的参数
 
 #### Enzyme API
 - .get(index)：返回指定位置的子组件的DOM节点
