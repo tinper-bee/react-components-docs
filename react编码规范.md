@@ -10,7 +10,8 @@
 ## js规范
 - 使用es6开发，尽量使用常用的ES6语法，(ES6语法参考)[http://es6.ruanyifeng.com/]
 - 使用jsx语法
-- 组件命名使用大驼峰， ComponentDemo
+- 组件仓库命名为小写和“-”连接，如button、button-group
+- 组件文件命名使用大驼峰， ComponentDemo
 - 带命名空间的组件，如果一个组件包含只有自身使用的子组件，以该组件为命名空间编写组件，例如Table，Table.Head
 - 不使用displayName命名
 - 自定义属性使用data-
