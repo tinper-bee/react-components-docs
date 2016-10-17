@@ -3,7 +3,6 @@
 ### 测试依赖
 - mocha
 - chai
-- jsdom
 - enzyme
 
 ### 试用Enzyme测试

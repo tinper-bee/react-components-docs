@@ -36,8 +36,7 @@ const class1 = {
     [`${clsPrefix}-item`]: true,
     [`${clsPrefix}-item-last`]: stepLast,
     [`${clsPrefix}-status-${status}`]: true,
-    [`${clsPrefix}-custom`]: icon,
-    [className]: !!className,
+    [`${clsPrefix}-custom`]: icon
   };
 const class2 = [`${clsPrefix}-submit`, `${clsPrefix}-item`];
 
