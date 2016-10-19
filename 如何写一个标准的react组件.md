@@ -13,8 +13,8 @@ npm install -g yo generator-tinper-bee
 #### 2、生成组件脚手架
 下面以创建button组件为例
 ```
-mkdir button
-cd button
+mkdir bee-button
+cd bee-button
 yo tinper-bee --port=8000 --author=yonyou
 ```
 
@@ -34,6 +34,14 @@ API介绍
 ```
 npm install -g bee-tools
 ```
+如果mac使用bee-tools提示`env: node\r: No such file or directory`
+请下载dos2unix
+```
+$brew install dos2unix
+$cd /usr/local/lib/node_modules/bee-tools/bin
+$sudo dos2unix bee-tools-run.js bee-tools.js
+```
+
 
 #### 4、开发指南
 ##### 目录结构
