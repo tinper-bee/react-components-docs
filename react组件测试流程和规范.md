@@ -5,7 +5,7 @@
 - chai
 - enzyme
 
-### 试用Enzyme测试
+### 使用Enzyme测试
 - shallow Rendering 测试虚拟dom
 - DOM Rendering 测试真实dom
 
@@ -73,3 +73,37 @@ describe('Enzyme Mount', function () {
 - .state([key])：返回根组件的状态
 - .setState(nextState)：设置根组件的状态
 - .setProps(nextProps)：设置根组件的属性
+
+### chai的expect语法
+[官网](http://chaijs.com/api/bdd/)
+#### 连接关键字
+- to
+- be
+- been
+- is
+- that
+- which
+- and
+- has
+- have
+- with
+- at
+- of
+- same
+
+这些关键字会在下面的例子中，有一些功能演示
+
+#### 断言
+- .not
+非
+```js
+expect(foo).to.not.equal('bar');
+expect(goodFn).to.not.throw(Error);
+expect({ foo: 'baz' }).to.have.property('foo').and.not.equal('bar');
+```
+
+- .deep
+
+```js
+
+```
