@@ -38,7 +38,7 @@ componentWillUpdate,componentDidUpdate,componentWillUnmount)
 ## 样式规范
 - 组件样式使用sass编写，公用样式使用tinper-bee-core包，请阅读[tinper-bee-core文档](https://github.com/tinper-bee/tinper-bee-core)
 - 组件样式调用，使用classnames模块，进行样式处理，使用className调用
-- 组件内部使用clsPrefix为样式前缀
+- 组件使用clsPrefix为样式前缀,用户也可在组件上设置自定义的clsPrefix="yourPre"
 ```javascript
 const clsPrefix = 'u-select';
 const class1 = {
@@ -52,6 +52,8 @@ const class2 = [`${clsPrefix}-submit`, `${clsPrefix}-item`];
 const classString = classNames('hide', class1, class2);
 
 ```
+- 可提供多种颜色的组件，在写scss文件时，颜色设置需提出公用的minxin方法例如Alert组件中设置多种颜色： @alert-styles-variant
+
 ## 组件接口规范
 
 |参数|说明|类型|默认值|
