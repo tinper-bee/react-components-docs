@@ -4,18 +4,34 @@
 - 需要安装node 4.0版本及以上, npm版本最好3.0以上
 - [sass环境依赖](https://github.com/tinper-bee/react-components-docs/blob/master/sass%E7%8E%AF%E5%A2%83%E4%BE%9D%E8%B5%96%E8%A7%A3%E5%86%B3.md)
 
-### 一、生成组件脚手架
-#### 1、下载
+### 一、下载tinper-bee开发工具
+#### 1、全局安装开发工具
 ```
-npm install -g yo generator-tinper-bee
+npm install -g bee-tools
+```
+使用版本号，来验证是否下载成功。
+```
+bee-tools --version
+```
+因为npm下载较慢，所以请使用cnpm或者切换为淘宝源来下载
+
+- 使用cnpm
+
+```
+npm install -g cnpm
+cnpm install -g bee-tools
+```
+- 切换淘宝源
+
+```
+npm --registry https://registry.npm.taobao.org install -g bee-tools
 ```
 
 #### 2、生成组件脚手架
 下面以创建button组件为例
+
 ```
-mkdir bee-button
-cd bee-button
-yo tinper-bee --port=8000 --author=yonyou
+bee-tools create bee-button --author yonyou --port 8000 --tbVersion 0.1.0 --repoUrl https://github.com/tinper-bee/bee-button
 ```
 
 API介绍
@@ -24,26 +40,15 @@ API介绍
 |:------------ |:-------------:| -----:|
 | port      | 开发时服务监听端口 | 8000 |
 | author      | 作者名字      |   空字符串 |
-| beeVersion | 版本号     |    0.0.1 |
+| tbVersion | 版本号     |    0.0.1 |
 | pkgName | 包名      |    bee-组件名 |
 | repoUrl | 仓库地址      |    https://github.com/tinper-bee/ + 包名|
 
 默认发布的包名为bee-组件名
 
-#### 3、下载tinper-bee开发工具
-```
-npm install -g bee-tools
-```
-如果mac使用bee-tools提示`env: node\r: No such file or directory`
-请下载dos2unix
-```
-$brew install dos2unix
-$cd /usr/local/lib/node_modules/bee-tools/bin
-$sudo dos2unix bee-tools-run.js bee-tools.js
-```
 
 
-#### 4、开发指南
+#### 3、开发指南
 ##### 目录结构
 
 ```
@@ -57,7 +62,7 @@ $sudo dos2unix bee-tools-run.js bee-tools.js
  -index.js
 -test
  -Button.test.js
--.eslintignore
+-.gitignore
 -.npmignore
 -HISTORY.md
 -index.html
@@ -85,11 +90,11 @@ $sudo dos2unix bee-tools-run.js bee-tools.js
 - 在项目根目录执行 `npm run build` 产出build目录代码
 - 在项目根目录执行 `npm run lint` 执行lint检查
 - 在项目根目录执行 `npm run test` 执行测试用例
+- 在项目根目录执行 `npm run coveralls` 执行测试覆盖率
 - 在项目根目录执行 `npm run chrome` 在chrome执行测试用例
 - 在项目根目录执行 `npm run browsers` 在本机多浏览器执行测试用例
 - 在项目根目录执行 `npm run pub` 进行组件发布,master分支为正式发布版，release分支为开发分支
 
 ##### 浏览器支持版本
 
-- ie8, ie8+, chrome, firefox 最新版
-- 可适当渐进降级，如 css 动画可以不支持 ie8
+- ie9, ie9+, chrome, firefox 最新版
