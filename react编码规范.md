@@ -68,6 +68,64 @@ const classString = classNames('hide', class1, class2);
 |style|内联样式|object|''|
 |clsPrefix|自定义样式前缀|string|''|
 
+## 国际化
+
+
+当你的组件包含一些文字时，在src目录下，创建`i18n.js`文件，写下对应的hash值。内容如下：
+```
+module.exports = {
+    'zh-cn': {
+        'ok': '确定',
+        'cancel': '取消',
+        'isee': '知道了'
+    },
+    'en-us': {
+        'ok': 'ok',
+        'cancel': 'cancel',
+        'isee': 'ok'
+    }
+}
+```
+组件内这么使用:
+```
+import i18n from './i18n';
+import React from 'react';
+
+Example.defaultProps = {
+    locale: 'zh-cn'
+};
+
+class Example extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
+
+    render() {
+        const {locale} = this.props;
+        const locale = i18n[locale];
+
+        const buttons= [
+            <Button>
+                {locale['ok']}
+            </Button>,
+            <Button>
+                {locale['cancel']}
+            </Button>
+        ];
+        return (
+            <div>
+            { buttons }
+            </div>
+            )
+    }
+}
+
+
+```
+
+
+
 ## 基本代码结构
 
 ```javascript
