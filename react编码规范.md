@@ -1,5 +1,7 @@
 # react组件开发规范
 
+要求编码规范，接口定义规范，组件结构自由给予用户充分定制能力。
+
 ## 文件命名
 - 每一个文件只包含一个组件，每一个基本组件只包含单一功能
 - src目录下，如果文件返回是一个类，文件名首字母大写
@@ -67,6 +69,8 @@ const classString = classNames('hide', class1, class2);
 |htmlType|html dom 的 type 属性|string|''|
 |style|内联样式|object|''|
 |clsPrefix|自定义样式前缀|string|''|
+
+对于方法的传递，外部使用onClick传入事件，内部使用handleClick进行接收使用
 
 ## 国际化
 
