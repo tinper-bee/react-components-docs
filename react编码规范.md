@@ -182,6 +182,20 @@ Button.defaultProps = defaultProps;
 export default Button;
 ```
 
+### 常用npm包
+
+##### keyCode
+
+##### warning
+
+##### bee-animate
+
+##### bee-transition
+
+##### bee-overlay
+
+##### dom-helpers (3.0.0)
+
 
 参考链接
 https://github.com/react-component/react-component.github.io/blob/master/docs/zh-cn/code-style/js.md
