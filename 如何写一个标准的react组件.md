@@ -6,6 +6,16 @@
 
 ### 一、下载tinper-bee开发工具
 #### 1、全局安装开发工具
+
+如果是用友内部员工，请使用用友内部npm镜像和下载工具ynpm-tool。
+
+```
+npm install -g ynpm-tool
+ynpm install
+```
+
+也可以使用npm。
+
 ```
 npm install -g bee-tools
 ```
@@ -26,6 +36,8 @@ cnpm install -g bee-tools
 ```
 npm --registry https://registry.npm.taobao.org install -g bee-tools
 ```
+
+
 
 #### 2、生成组件脚手架
 下面以创建button组件为例

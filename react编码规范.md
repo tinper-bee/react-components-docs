@@ -184,17 +184,27 @@ export default Button;
 
 ### 常用npm包
 
-##### keyCode
+##### [keyCode](https://github.com/timoxley/keycode)
 
-##### warning
 
-##### bee-animate
+##### [warning](https://github.com/BerkeleyTrue/warning)
 
-##### bee-transition
+```
+var warning = require('warning');
 
-##### bee-overlay
+var ShouldBeTrue = false;
 
-##### dom-helpers (3.0.0)
+warning(
+  ShouldBeTrue,
+  'This thing should be true but you set to false. No soup for you!'
+);
+```
+
+##### [bee-animate](https://github.com/tinper-bee/bee-animate)
+
+##### [bee-overlay](https://github.com/tinper-bee/bee-overlay)
+
+##### [dom-helpers (3.0.0)](https://github.com/react-bootstrap/dom-helpers)
 
 
 参考链接
