@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6268886-b616-4b3f-a001-08a3385e36ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/组件划分原则.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react编码规范.md" afterPath="$PROJECT_DIR$/react编码规范.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/如何写一个标准的react组件.md" afterPath="$PROJECT_DIR$/如何写一个标准的react组件.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,11 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="react编码规范.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="react编码规范.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react编码规范.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="604">
               <caret line="206" column="75" lean-forward="true" selection-start-line="206" selection-start-column="75" selection-end-line="206" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -98,6 +106,7 @@
         <option value="$PROJECT_DIR$/如何写一个标准的react组件.md" />
         <option value="$PROJECT_DIR$/组件划分原则.md" />
         <option value="$PROJECT_DIR$/react编码规范.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -247,12 +256,12 @@
       <option name="presentableId" value="Default" />
       <updated>1502951840899</updated>
       <workItem from="1502951842356" duration="3929000" />
-      <workItem from="1503381253636" duration="2775000" />
+      <workItem from="1503381253636" duration="2823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6704000" />
+    <option name="totallyTimeSpent" value="6752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1092" extended-state="0" />
@@ -370,6 +379,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
           <caret line="206" column="75" lean-forward="true" selection-start-line="206" selection-start-column="75" selection-end-line="206" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding />
         </state>
       </provider>
