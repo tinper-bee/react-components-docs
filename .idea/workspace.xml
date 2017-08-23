@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e6268886-b616-4b3f-a001-08a3385e36ae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/现有组件及待开发.md" afterPath="$PROJECT_DIR$/现有组件及待开发.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/如何写一个标准的react组件.md" afterPath="$PROJECT_DIR$/如何写一个标准的react组件.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,61 +18,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="现有组件及待开发.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/现有组件及待开发.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="react编码规范.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react编码规范.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="206" column="75" lean-forward="true" selection-start-line="206" selection-start-column="75" selection-end-line="206" selection-end-column="75" />
+            <state relative-caret-position="234">
+              <caret line="102" column="15" lean-forward="true" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="如何写一个标准的react组件.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/如何写一个标准的react组件.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="组件划分原则.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/组件划分原则.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="78" column="16" lean-forward="true" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="react组件测试流程和规范.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react组件测试流程和规范.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="组件版本及分支管理.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/组件版本及分支管理.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="856">
+              <caret line="145" column="25" lean-forward="false" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -93,11 +53,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/如何写一个标准的react组件.md" />
         <option value="$PROJECT_DIR$/组件划分原则.md" />
         <option value="$PROJECT_DIR$/react编码规范.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/现有组件及待开发.md" />
+        <option value="$PROJECT_DIR$/如何写一个标准的react组件.md" />
       </list>
     </option>
   </component>
@@ -110,8 +70,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1932" />
-    <option name="height" value="1092" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -132,7 +92,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -147,6 +106,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,7 +114,8 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bee-button" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://I:/yonyou/iuap/react-components-docs/react编码规范.md" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -247,18 +208,19 @@
       <option name="presentableId" value="Default" />
       <updated>1502951840899</updated>
       <workItem from="1502951842356" duration="3929000" />
-      <workItem from="1503381253636" duration="4320000" />
+      <workItem from="1503381253636" duration="5666000" />
+      <workItem from="1503456051856" duration="778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8249000" />
+    <option name="totallyTimeSpent" value="10373000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1092" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11433087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -287,11 +249,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/现有组件及待开发.md">
+    <entry file="file://$PROJECT_DIR$/react编码规范.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/现有组件及待开发.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -307,7 +276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -330,7 +298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="78" column="16" lean-forward="true" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -338,15 +305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react编码规范.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="206" column="75" lean-forward="true" selection-start-line="206" selection-start-column="75" selection-end-line="206" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -354,15 +312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
           <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/如何写一个标准的react组件.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -370,14 +319,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/现有组件及待开发.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
+        <state relative-caret-position="1170">
           <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react编码规范.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="102" column="15" lean-forward="true" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/如何写一个标准的react组件.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="145" column="25" lean-forward="false" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
           <folding />
         </state>
       </provider>

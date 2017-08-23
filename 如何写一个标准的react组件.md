@@ -42,6 +42,13 @@ npm --registry https://registry.npm.taobao.org install -g bee-tools
 #### 2、生成组件脚手架
 下面以创建button组件为例
 
+- 快速创建：
+
+```
+bee-tools create bee-button
+```
+- 增加创建参数：
+
 ```
 bee-tools create bee-button --author yonyou --port 8000 --tbVersion 0.1.0 --repoUrl https://github.com/tinper-bee/bee-button
 ```
@@ -65,8 +72,11 @@ API介绍
 
 ```
 -demo
- -ButtonDemo.js
+ -demolist
+    -Demo1.js
  -ButtonDemo.scss
+ -index-demo-base.js
+ -atom-one-dark.css
  -index.js
 -src
  -Button.js
@@ -85,6 +95,8 @@ API介绍
 
 - 在 src 目录中写源程序代码。
 - 在 demo 目录下写使用用例。
+demo示例中的引用写在index-demo-base.j文件中。
+demo示例卸载demolist文件夹内，每一个示例创建一个Demo[数字].js文件。
 - 在 test 目录下写 测试用例。
 - build目录产出打包组件。
 - 代码规范参考 [代码规范](https://github.com/tinper-bee/react-components-docs/blob/master/react%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.md)。
@@ -106,6 +118,33 @@ API介绍
 - 在项目根目录执行 `npm run chrome` 在chrome执行测试用例
 - 在项目根目录执行 `npm run browsers` 在本机多浏览器执行测试用例
 - 在项目根目录执行 `npm run pub` 进行组件发布,master分支为正式发布版，release分支为开发分支
+
+##### 推送远程仓库
+
+组件开发完成，就要推送到github远程仓库了。
+
+- 首先在[http://github.com/tinper-bee](http://github.com/tinper-bee)创建一个远程仓库，仓库名称就是你的组件名。这一步最好不要在远程仓库创建任何文件。
+- 接着，关联本地仓库和远程仓库
+
+如果你已经在本地初始化过仓库，并提交过。
+
+```
+//在你的组件的根目录
+git remote add origin http://github.com/tinper-bee/[你的组件库名称].git
+git push -u origin master
+
+```
+
+如果没有初始化过仓库
+
+```
+//在你的组件的根目录
+git init
+git add .
+git commit -m "一些描述信息"
+git remote add origin http://github.com/tinper-bee/[你的组件库名称].git
+git push -u origin master
+```
 
 ##### 浏览器支持版本
 
