@@ -8,7 +8,7 @@
 - 文件js模块统一使用js后缀名
 
 ## js规范
-- 使用es6开发，尽量使用常用的ES6语法，(ES6语法参考)[http://es6.ruanyifeng.com/]
+- 使用es6开发，尽量使用常用的ES6语法，[ES6语法参考](http://es6.ruanyifeng.com/)
 - 使用jsx语法
 
 ### 格式
