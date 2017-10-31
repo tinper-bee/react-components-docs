@@ -1,6 +1,6 @@
-#changelog实现方式
+# changelog实现方式
 
-##1、Commitizen
+## 1、Commitizen
 
 > Commitizen是一个格式化commit message的工具。
 
@@ -16,7 +16,7 @@ git cz替换git commit命令
 ![](media/15093486333182/15094380852015.jpg)
 
 
-##2、conventional-changelog-cli
+## 2、conventional-changelog-cli
 >就是生成 Change log 的工具。
 
     npm install -g conventional-changelog-cli
@@ -28,7 +28,7 @@ git cz替换git commit命令
 
 
 
-##3、validate-commit-msg
+## 3、validate-commit-msg
 >用于检查 Node 项目的 Commit message 是否符合格式。
 
 1. 拷贝下面这个JS文件，[JS](https://github.com/conventional-changelog-archived-repos/validate-commit-msg/blob/master/index.js)放入你的代码库。文件名可以取为validate-commit-msg.js。
@@ -40,18 +40,18 @@ git cz替换git commit命令
 eg:
 ![](media/15093486333182/15094385275825.jpg)
 
-##4、命令截图
+## 4、命令截图
 ![](media/15093486333182/15094390880861.jpg)
 
-##5、效果截图
+## 5、效果截图
 ![](media/15093486333182/15094393010120.jpg)
 
 
-##辅助工具
+## 6、辅助工具
 
 > conventional-github-releaser：通过提交记录生成 github release 中的变更描述
 
-### 把md文件转html,且提交到github上
+### 7、把md文件转html,且提交到github上
 一下两工具分别解决，是把README.md编译成html，并带有左侧目录功能，然后推送到git pages上
 
 https://github.com/tschaub/gh-pages
@@ -66,20 +66,20 @@ https://github.com/rowoot/gulp-gh-pages【为gulp 的插件】
 生成以后的效果如下
 http://i5ting.github.io/docto-example/#101
 
+----
 
-
-
-## commit message 格式
+## 注解
+### 1.commit message 格式
 
 commit message 主要包括三个部分：Header、Body、Footer。
 
 除 Header 外，Body、Footer均为非必填项。
 
-### Header
+### 2.Header
 
 Header 要求单行，其中包括 <type>、<scope>、<subject>三个部分。
 
-### type
+### 3.type
 
 用来标识 commit 的类型，总共有以下 11 个标识：
 
@@ -95,19 +95,19 @@ Header 要求单行，其中包括 <type>、<scope>、<subject>三个部分。
 	chore: 除上述之外的修改
 	revert: 撤销改动先前的提交
 
-### scope
+### 4.scope
 
 用来标识改动所影响的范围，视项目而定。
 
-### subject
+### 5.subject
 
 改动的简短描述，不超过 50 字符长度。
 
-### Body
+### 6.Body
 
 本次 commit 的详细描述。
 
-### Footer
+### 7.Footer
 
 主要用于两种情况：
 
