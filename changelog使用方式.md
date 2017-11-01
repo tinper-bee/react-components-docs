@@ -1,4 +1,4 @@
-# changelog实现方式
+# changelog使用方式
 
 ## 1、Commitizen
 
@@ -26,47 +26,12 @@ git cz替换git commit命令
 >现在是配置在package.json中   
 ![](media/15093486333182/15094388347044.jpg)
 
-
-
-## 3、validate-commit-msg
->用于检查 Node 项目的 Commit message 是否符合格式。
-
-1. 拷贝下面这个JS文件，[JS](https://github.com/conventional-changelog-archived-repos/validate-commit-msg/blob/master/index.js)放入你的代码库。文件名可以取为validate-commit-msg.js。
-
-2. 把这个脚本加入 Git 的 hook。下面是在package.json里面使用 ghooks，把这个脚本加为commit-msg时运行。     
-    ![](media/15093486333182/15094386539876.jpg)
-
-3. 每次git commit的时候，这个脚本就会自动检查 Commit message 是否合格。如果不合格，就会报错。
-eg:
-![](media/15093486333182/15094385275825.jpg)
-
-## 4、命令截图
+## 3、命令截图
 ![](media/15093486333182/15094390880861.jpg)
 
-## 5、效果截图
+## 4、效果截图
 ![](media/15093486333182/15094393010120.jpg)
 
-
-## 6、辅助工具
-
-> conventional-github-releaser：通过提交记录生成 github release 中的变更描述
-
-### 7、把md文件转html,且提交到github上
-一下两工具分别解决，是把README.md编译成html，并带有左侧目录功能，然后推送到git pages上
-
-https://github.com/tschaub/gh-pages
-
-
-1. 依赖i5ting_ztree_toc插件，生成目录。
-2. git pages是免费的http静态服务器。
-3. rub 环境。
-
-https://github.com/rowoot/gulp-gh-pages【为gulp 的插件】
-
-生成以后的效果如下
-http://i5ting.github.io/docto-example/#101
-
-----
 
 ## 注解
 ### 1.commit message 格式
