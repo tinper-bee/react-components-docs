@@ -6,6 +6,8 @@
 
     npm install -g commitizen
     
+    进入项目执行
+    
     commitizen init cz-conventional-changelog --save --save-exact
 
 >此操作会修改package.json文件。
@@ -21,10 +23,14 @@ git cz替换git commit命令
 
     npm install -g conventional-changelog-cli
     cd my-project
-    conventional-changelog -p angular -i CHANGELOG.md -s
+    conventional-changelog -p angular -i CHANGELOG.md -s -r 0
     
->现在是配置在package.json中   
-![](media/15093486333182/15094388347044.jpg)
+现在是配置在package.json中
+
+>"scripts": {
+>"changelog":"conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+>}
+
 
 ## 3、命令截图
 ![](media/15093486333182/15094390880861.jpg)
