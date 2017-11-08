@@ -3,7 +3,7 @@
 ## 1、安装Commitizen
 
 > Commitizen是一个格式化commit message的工具。
-> bee-tools 请更新到最新版本。【0.4.1】
+> bee-tools 请更新到最新版本。【0.4.2】
 
     npm install -g commitizen
     
