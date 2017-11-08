@@ -37,8 +37,7 @@
         
         2. do you wang run changelog ?(y/n) (y) // y或直接回车
         
-        选择修复的bug类型
-        3. Select the type of change that you're committing: (Use arrow keys)
+        3. Select the type of change that you're committing: (Use arrow keys) // 选择本次修改的类型。
         ❯ feat:     A new feature
           fix:      A bug fix
           docs:     Documentation only changes
@@ -48,7 +47,7 @@
           perf:     A code change that improves performance
           test:     Adding missing tests or correcting existing tests
          
-          选择本次修改的类型。
+          
           
         4. What is the scope of this change (e.g. component or file name)? (press enter to skip) //输入描述(50字以内)
         
