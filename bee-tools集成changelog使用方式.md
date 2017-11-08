@@ -11,7 +11,7 @@
 ## 2、初始化配置
     
     在项目中执行
-    >如果你项目中已经安装了changelog忽略此步骤
+> 如果你项目中已经安装了changelog忽略此步骤
     
     bee-tools run changelogInit
 
