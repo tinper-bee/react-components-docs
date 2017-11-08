@@ -9,8 +9,6 @@
     
     npm install bee-tools/npm update bee-tools
 
-
-
 ## 2、初始化配置
 
 >如果你项目中已经安装了changelog忽略此步骤
@@ -35,38 +33,48 @@
 
         执行 bee-tools run pub
         
-        please enter the package version to publish (should be xx.xx.xx) (1.0.2) //输入即将要发布的版本号
+        1. please enter the package version to publish (should be xx.xx.xx) (1.0.2) //输入即将要发布的版本号
         
-        do you wang run changelog ?(y/n) (y) // y或直接回车
+        2. do you wang run changelog ?(y/n) (y) // y或直接回车
         
-        选择本次修改的类型。
-![](media/15096985213268/15101285321317.jpg)
-
-        What is the scope of this change (e.g. component or file name)? (press enter to skip) //输入描述(50字以内)
+        选择修复的bug类型
+        3. Select the type of change that you're committing: (Use arrow keys)
+        ❯ feat:     A new feature
+          fix:      A bug fix
+          docs:     Documentation only changes
+          style:    Changes that do not affect the meaning of the code (white-space, formatting, missing semi
+        -colons, etc)
+          refactor: A code change that neither fixes a bug nor adds a feature
+          perf:     A code change that improves performance
+          test:     Adding missing tests or correcting existing tests
+         
+          选择本次修改的类型。
+          
+        4. What is the scope of this change (e.g. component or file name)? (press enter to skip) //输入描述(50字以内)
         
         eg: > 本次修复了弹出框的问题。
     
-        Write a short, imperative tense description of the change: //
+        5. Write a short, imperative tense description of the change: //
         
         eg: > 请参考issues中回复。
         
-        Provide a longer description of the change: (press enter to skip)
+        6. Provide a longer description of the change: (press enter to skip)
         
         eg: > 回车
         
-        Are there any breaking changes?
+        7. Are there any breaking changes?
         
         eg: > y
        
-        Describe the breaking changes
+        8. Describe the breaking changes
         eg: > 1. 修改了弹出框的问题。
               2. 修复了xx问题。
                     
-        Does this change affect any open issues? (y/N)
+        9. Does this change affect any open issues? (y/N)
         
         eg: > y
         
-        Add issue references (e.g. "fix #123", "re #123".):
+        10. Add issue references (e.g. "fix #123", "re #123".):
         
         Closes #x //issues 的编号
 
