@@ -12,7 +12,7 @@
     
     在项目中执行  
     
-    bee-tools run loginit
+    bee-tools run changelogInit
 
 ## 3、带log的提交
 
