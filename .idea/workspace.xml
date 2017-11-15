@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6268886-b616-4b3f-a001-08a3385e36ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093423504762/15094349601186.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093423504762/15094350133475.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093423504762/15094367228974.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093423504762/15094367812628.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093423504762/15094370124130.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093423504762/15094480240094.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093423504762/15094483064241.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093486333182/15094390880861.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093486333182/15094393010120.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15096985213268/15101285258182.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15096985213268/15101285321317.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15096985213268/15101286812451.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bee-tools集成changelog使用方式.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/changelog使用方式.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react编码规范.md" afterPath="$PROJECT_DIR$/react编码规范.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/组件版本及分支管理.md" afterPath="$PROJECT_DIR$/组件版本及分支管理.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,20 +32,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="react编码规范.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="react编码规范.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react编码规范.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="102" column="15" lean-forward="true" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
+            <state relative-caret-position="1697">
+              <caret line="637" column="0" lean-forward="true" selection-start-line="637" selection-start-column="0" selection-end-line="637" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="如何写一个标准的react组件.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="如何写一个标准的react组件.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/如何写一个标准的react组件.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="856">
+            <state relative-caret-position="556">
               <caret line="145" column="25" lean-forward="false" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
               <folding />
             </state>
@@ -53,10 +68,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/组件划分原则.md" />
-        <option value="$PROJECT_DIR$/react编码规范.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/现有组件及待开发.md" />
         <option value="$PROJECT_DIR$/如何写一个标准的react组件.md" />
+        <option value="$PROJECT_DIR$/react编码规范.md" />
       </list>
     </option>
   </component>
@@ -89,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -104,6 +118,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -208,14 +223,16 @@
       <workItem from="1502951842356" duration="3929000" />
       <workItem from="1503381253636" duration="5666000" />
       <workItem from="1503456051856" duration="836000" />
+      <workItem from="1510725706571" duration="68000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10431000" />
+    <option name="totallyTimeSpent" value="10499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1228" height="1084" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18235295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -223,7 +240,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3336842" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3336842" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -246,6 +263,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/react编码规范.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="102" column="15" lean-forward="true" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/如何写一个标准的react组件.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3770">
+          <caret line="145" column="25" lean-forward="false" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/react编码规范.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -326,18 +359,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react编码规范.md">
+    <entry file="file://$PROJECT_DIR$/如何写一个标准的react组件.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="102" column="15" lean-forward="true" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
+        <state relative-caret-position="556">
+          <caret line="145" column="25" lean-forward="false" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/如何写一个标准的react组件.md">
+    <entry file="file://$PROJECT_DIR$/react编码规范.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="145" column="25" lean-forward="false" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
+        <state relative-caret-position="1697">
+          <caret line="637" column="0" lean-forward="true" selection-start-line="637" selection-start-column="0" selection-end-line="637" selection-end-column="0" />
           <folding />
         </state>
       </provider>
