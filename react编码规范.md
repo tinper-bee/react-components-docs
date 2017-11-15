@@ -10,19 +10,55 @@
 - 每一个组件使用一个单独的测试用例文件
 
 ## js规范
+
+### 语法
+
 - 使用es6开发，尽量使用常用的ES6语法，(ES6语法参考)[http://es6.ruanyifeng.com/]
 - 使用jsx语法
+
+### 命名规范
+
 - 组件仓库命名为小写和“-”连接，如button、button-group
 - 组件文件命名使用大驼峰， ComponentDemo
 - 带命名空间的组件，如果一个组件包含只有自身使用的子组件，以该组件为命名空间编写组件，例如Table，Table.Head
+
+### 组件属性及写法规范
+
 - 不使用displayName命名
+组件不使用displayName
+
 - 自定义属性使用data-
+赋值给dom的自定义属性，使用`data-xxx=xxx`的形式
+```
+```
 - 使用propTypes进行props类型校验
+
+
 - 使用defaultProps定义默认参数
 - 定义props避开react关键字及保留字，常用的props及state定义可参考下表
+
+
+
 - 尽量少或者不使用ref获取和操作dom节点，使用state和prop进行控制dom
 - 事件调用使用在元素上onClick调用
+
+```
+//bad
+
+
+
+<div ref='demo' ></div>
+
+//good
+
+handleClick = (e) => {}
+...
+<div onClick={this.handleClick} ></div>
+
+```
 - 注意，react和html的表单元素的差异
+
+
 - 使用es6后，不支持mixin，使用decorator进行扩展，（babel？需要增加解析器）和高阶组件方式扩展。
 - 尽量不使用比较大的第三方js库
 - 组件方法定义顺序 constructor --> 声明周期方法(componentWillMount,componentDidMount,
