@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6268886-b616-4b3f-a001-08a3385e36ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093423504762/15094349601186.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093423504762/15094350133475.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093423504762/15094367228974.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093423504762/15094367812628.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093423504762/15094370124130.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093423504762/15094480240094.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093423504762/15094483064241.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093486333182/15094390880861.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15093486333182/15094393010120.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15096985213268/15101285258182.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15096985213268/15101285321317.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/15096985213268/15101286812451.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bee-tools集成changelog使用方式.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/changelog使用方式.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react编码规范.md" afterPath="$PROJECT_DIR$/react编码规范.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/组件版本及分支管理.md" afterPath="$PROJECT_DIR$/组件版本及分支管理.md" />
-    </list>
+    <list default="true" id="e6268886-b616-4b3f-a001-08a3385e36ae" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -223,12 +206,12 @@
       <workItem from="1502951842356" duration="3929000" />
       <workItem from="1503381253636" duration="5666000" />
       <workItem from="1503456051856" duration="836000" />
-      <workItem from="1510725706571" duration="68000" />
+      <workItem from="1510725706571" duration="622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10499000" />
+    <option name="totallyTimeSpent" value="11053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1228" height="1084" extended-state="0" />
