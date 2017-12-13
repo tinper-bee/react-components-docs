@@ -9,6 +9,10 @@
     进入项目执行
     
     commitizen init cz-conventional-changelog --save --save-exact
+    
+    注：如果你觉得进入每个项目都需要执行init命令，那么可以使用下面命令来进行全局的init
+    
+    echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
 
 >此操作会修改package.json文件。
 >![](media/15093486333182/15094378630612.jpg)
