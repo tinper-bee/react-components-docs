@@ -1,6 +1,6 @@
 # bee-tools集成changelog使用方式
 
-## 1、安装Commitizen
+## 1、安装Commitizen、bee-tools
 
 > Commitizen是一个格式化commit message的工具。
 > bee-tools 请更新到最新版本。【0.4.2】
